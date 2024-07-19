@@ -1,0 +1,61 @@
+    1  git init
+    2  git clone https://github.com/ramunsaac/desarrollo_2.git
+    3  cd desarollo_2
+    4  ls
+    5  cd desarrollo_2
+    6  git config --global user.name 164243@unsaac.edu.pe
+    7  git config --global user.email 164243@unsaac.edu.pe
+    8  git config --global user.name SebastianMacedo
+    9  git remote add origin https://github.com/SebastianMacedo/Desarrollo2.git
+   10  git add.
+   11  git status
+   12  git add .
+   13  git commit -m "Se agrega el proyecto"
+   14  git remote add origin https://github.com/SebastianMacedo/Desarrollo2.git
+   15  git branch -M main
+   16  git push -u origin main
+   17  git init
+   18  git clone [200~
+   19  git clone https://github.com/SebastianMacedo/Proyecto_Colegio_Profesional.git
+   20  dir
+   21  cd Proyecto_Colegio_Profesional
+   22  git branch
+   23  git checkout -b BaseDeDatos
+   24  git branch
+   25  git commit -m "Subiendo la rama de Base de Datos"
+   26  git push -u origin BaseDeDatos
+   27  git status
+   28  git status
+   29  git add .
+   30  git commit -m "Añadiendo scripts de base de datos"
+   31  git push origin BaseDeDatos
+   32  git checkout -b Backend
+   33  git branch
+   34  git push -u origin Backend
+   35  git status
+   36  git add .
+   37  git commit -m "Subiendo el Backend del Proyecto"
+   38  git push origin Backend
+   39  git checkout -b FrontEnd
+   40  git branch
+   41  git push -u origin FrontEnd
+   42  git status
+   43  git add frontend_ColegioProfesional
+   44  git commit -m "Añadiendo el frontend con un archivo index.html"
+   45  git push origin FrontEnd
+   46  git checkout main
+   47  dir
+   48  git checkout -b Version_1.0.0
+   49  git status
+   50  git push -u origin Version_1.0.0
+   51  git merge BaseDeDatos
+   52  git merge Backend
+   53  git merge FrontEnd
+   54  git add .
+   55  git commit -m "Subiendo la versión 1.0.0 de mi proyecto"
+   56  git push origin Version_1.0.0
+   57  git status
+   58  dir
+   59  git log --oneline --graph --decorate
+   60  git reflog
+   61  history > historialcomandos.txt
